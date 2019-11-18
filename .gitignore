@@ -1,2 +1,11 @@
 *.class
 *.log
+*.jar
+target/
+
+.idea/
+*.iml
+
+.project
+.classpath
+.settings
