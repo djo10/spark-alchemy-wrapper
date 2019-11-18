@@ -12,7 +12,7 @@ This is a helper for registering [Spark Alchemy](https://github.com/swoop-inc/sp
 `sc._jvm.com.spark.alchemy.wrapper.PythonHelper.registerHllFunctions(spark._jsparkSession)`
 
 ### Example
-`df = spark.range(100000)
+```df = spark.range(100000)
 df.createOrReplaceTempView("df")
 spark.sql("select hll_cardinality(hll_init_agg(id) as count from df").show()
 
@@ -21,4 +21,4 @@ spark.sql("select hll_cardinality(hll_init_agg(id) as count from df").show()
 +-----+
 |98093|
 +-----+
-`
+```
