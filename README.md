@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # spark-alchemy-wrapper
 
 This is a helper for registering [Spark Alchemy](https://github.com/swoop-inc/spark-alchemy) functions in PySpark.
